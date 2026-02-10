@@ -18,6 +18,10 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      # Optional: set a fine-grained PAT with pages:write + contents:read in PAGES_TOKEN
+      # if the default GITHUB_TOKEN lacks permission to create the Pages site.
+      GITHUB_TOKEN: ${{ secrets.PAGES_TOKEN || secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
