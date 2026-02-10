@@ -1,5 +1,6 @@
 import projects from '../../data/projects.json'
 import { SectionLabel } from './SectionLabel'
+import { withBase } from '../../utils/assetPath'
 
 export const ProjectsSection = () => (
   <section id="projects" className="container mx-auto px-4 pb-20 space-y-6">
@@ -23,7 +24,7 @@ export const ProjectsSection = () => (
                 {project.image && (
                   <figure className="h-40 w-full overflow-hidden bg-base-200">
                     <img
-                      src={project.image}
+                      src={withBase(project.image)}
                       alt={project.title}
                       className="h-full w-full object-cover"
                       loading="lazy"

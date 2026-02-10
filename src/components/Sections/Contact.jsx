@@ -1,4 +1,5 @@
 import { SectionLabel } from './SectionLabel'
+import { withBase } from '../../utils/assetPath'
 
 const Icon = {
   mail: (
@@ -30,7 +31,7 @@ export const ContactSection = () => (
             <p className="text-sm uppercase tracking-[0.2em] text-secondary/80">Let's collaborate</p>
             <div className='join'>
             <img
-              src="/images/profilePicture.jpeg"
+              src={withBase('images/profilePicture.jpeg')}
               alt="Portrait of Christian Gorke"
               className="h-16 w-16 rounded-2xl object-cover border border-base-200 join-item"
               loading="lazy"

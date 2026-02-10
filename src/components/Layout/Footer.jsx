@@ -1,8 +1,10 @@
+import { withBase } from '../../utils/assetPath'
+
 export const Footer = () => {
   return (
     <footer className="footer footer-horizontal footer-center bg-primary text-primary-content p-10">
       <aside>
-        <img src="/images/logo.svg" alt="Christian Gorke logo" className="h-12 w-12" />
+        <img src={withBase('images/logo.svg')} alt="Christian Gorke logo" className="h-12 w-12" />
         <p className="font-bold">
           Christian Gorke
           <br />

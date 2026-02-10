@@ -1,3 +1,5 @@
+import { withBase } from '../../utils/assetPath'
+
 export const NavBar = () => {
     return (
         <header className="navbar sticky top-0 z-50 bg-base-100/90 backdrop-blur border-b border-base-300">
@@ -34,7 +36,7 @@ export const NavBar = () => {
                     </ul>
                 </div>
                 <a className="btn btn-ghost text-xl font-semibold flex items-center gap-2" href="#">
-                    <img src="/images/logo.svg" alt="Christian Gorke logo" className="h-8 w-8" />
+                    <img src={withBase('images/logo.svg')} alt="Christian Gorke logo" className="h-8 w-8" />
                     <span>Christian Gorke</span>
                 </a>
             </div>
