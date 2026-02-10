@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Project Mimir",
+    "blurb": "Project Mimir is a security reasoning engine designed to pre-emptively identify Cognitive Risks within security alerts.",
+    "tech": ["AI", "GCP", "Docker", "Terraform"],
+    "image": "/images/projects/MimirLanding.png",
+    "demo": null,
+    "link": "https://github.com/SkothaSec/project-mimir"
+  },
+  {
+    "title": "ENVIROTRON3000",
+    "blurb": "ENVIROTRON3000 is an interactive security environment simulator and analytics dashboard.",
+    "tech": ["Log Analytics", "SIEM", "Threat Hunting", "Dashboard"],
+    "image": "/images/projects/EnvirotronLanding.jpeg",
+    "demo": "https://genuine-cannoli-9a7c89.netlify.app/",
+    "link": "https://github.com/SkothaSec/ENVIROTRON3000"
+  }
+]

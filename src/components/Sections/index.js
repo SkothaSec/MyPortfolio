@@ -1,0 +1,6 @@
+export { Hero } from './Hero'
+export { AboutSection } from './About'
+export { ProjectsSection } from './Projects'
+export { BlogSection } from './Blog'
+export { SectionLabel } from './SectionLabel'
+export { ContactSection } from './Contact'

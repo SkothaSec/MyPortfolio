@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Analytical Methodology in InfoSec",
+    "date": "Nov 14, 2023",
+    "excerpt": "Examines the balance between human judgment and machine driven detection in modern security programs and explores analysis models, cognitive limitations, detection strategy and the relationship between strategic and tactical security operations",
+    "link": "https://medium.com/@cmgorke_55712/analytical-methodology-in-infosec-fd0d59f28e52"
+  },
+  {
+    "title": "Rethinking AI in Security",
+    "date": "Apr 19, 2025",
+    "excerpt": "A good AI system doesn't just tell you something. It invites collaboration. That's what reinforcement learning with human feedback (RLHF) is built to support.",
+    "link": "https://dev.to/skothasec/rethinking-ai-in-security-14di"
+  }
+]
